@@ -1,7 +1,5 @@
 package ru.netology;
 
-import java.util.Random;
-
 public class Main {
     public static void main(String[] args) {
         for (int r : new Randoms(90, 100)) {

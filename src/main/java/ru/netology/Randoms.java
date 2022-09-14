@@ -10,11 +10,12 @@ public class Randoms implements Iterable<Integer> {
     protected Random random = new Random();
 
     public Randoms(int min, int max) {
-        this.max = max+1;
+        this.max = max + 1;
         this.min = min;
     }
+
     protected Integer next() {
-        return random.nextInt(min,max);
+        return random.nextInt(min, max);
     }
 
     @Override
